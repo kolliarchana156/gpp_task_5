@@ -1,4 +1,4 @@
-# Multi-Tenant SaaS Platform
+# Multi-Tenant SaaS Platform (Capstone)
 
 A production-ready, containerized Multi-Tenant SaaS application for Project & Task Management. This system allows multiple organizations (tenants) to register, manage their teams, and track projects with complete data isolation.
 
