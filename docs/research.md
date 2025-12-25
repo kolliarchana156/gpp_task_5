@@ -36,3 +36,5 @@ For this SaaS platform, we analyzed three common approaches to multi-tenancy:
 2.  **Password Security:** All passwords are hashed using `bcryptjs` (Salt Rounds: 10) before storage. Plain text passwords never enter the database.
 3.  **JWT Authentication:** Stateless authentication using JSON Web Tokens. Tokens expire in 24 hours. The payload contains the `tenantId`, ensuring that even if a session is hijacked, the attacker cannot cross tenant boundaries.
 4.  **SQL Injection Protection:** All database queries use Parameterized Queries (Prepared Statements) via the `pg` library. This prevents attackers from injecting malicious SQL via input fields.
+
+

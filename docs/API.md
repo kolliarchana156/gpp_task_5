@@ -45,3 +45,4 @@
 * **Endpoint:** `GET /api/health`
 * **Description:** Returns system and database status.
 * **Response:** `{ "status": "ok", "database": "connected" }`
+* Note: All endpoints require JSON.
