@@ -62,5 +62,5 @@ multi-tenant-saas/
 ├── docs/               # Architecture & Requirements documentation
 └── docker-compose.yml  # Container orchestration
 
-"Author: [Friend's Name]"
+"Author: Archana Kolli"
 
